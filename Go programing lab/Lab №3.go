@@ -22,7 +22,7 @@ func main() {
 		i++
 	}
 
-	/*for i := 2; i <= 100; i++ {
+	/*for i := 2; i <= 100; i++ { // - найпростіший
 		if i%2 == 0 {
 			fmt.Println(i)
 		}
