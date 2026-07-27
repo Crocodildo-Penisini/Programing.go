@@ -5,9 +5,9 @@ package main
 import "fmt"
 
 func main() {
-	const rows = 3
-	const cols = 3
-	matrix := [rows][cols]int{
+	const rows = 3 // - значення рядків для матриці
+	const cols = 3 // - значення стовців для матриці
+	matrix := [rows][cols]int{ // - оголошення матриці
 		{6, 3, 9},
 		{2, 5, 8},
 		{1, 7, 4},
