@@ -4,13 +4,13 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
-	"time"
+	"math/rand" // - бібліотека для генерації випадкових чисел. 
+	"time" // - бібліотека для отримання поточного часу
 )
 
 func main() {
-	seed := time.Now().UnixNano()
-	rng := rand.New(rand.NewSource(seed))
+	seed := time.Now().UnixNano() // - Отримання початкового значення генератора
+	rng := rand.New(rand.NewSource(seed)) // - Створення генератора випадкових чисел
   
 	var playerChoice int
 	computerChoice := rng.Intn(3) + 1
