@@ -3,15 +3,15 @@
 package main
 
 import (
-	"fmt"
-	"math"
+	"fmt" // - бібліотека для введення та виведення
+	"math" // - бібліотека для математичних функцій.
 )
 
 func main() {
 	var Area float64
-	fmt.Println("Enter area: ")
-	_, err := fmt.Scan(&Area)
-	if err != nil {
+	fmt.Println("Enter area: ") // - вивід 
+	_, err := fmt.Scan(&Area) // - зчитування даних
+	if err != nil { // - перевірка на помилку
 		fmt.Println("Помилка вводу:", err)
 		return
 	}
